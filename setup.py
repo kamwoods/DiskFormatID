@@ -19,21 +19,21 @@ setup(name='DiskFormatID',
       description='Disk Format Identification for KryoFlux',
       author='Euan Cochrane',
       author_email='euanc@foobar.com',
-      maintainer = "Euan Cochrane",
-      maintainer_email = "euanc@foobar.com",
-      url="https://github.com/euanc/DiskFormatID",
+      maintainer = 'Euan Cochrane',
+      maintainer_email = 'euanc@foobar.com',
+      url='https://github.com/euanc/DiskFormatID',
 
       py_modules = ['chooseFormatsGUI', 'chooseFormats', 'diskIDMainGUI'],
 
       scripts = ['diskIDMain'],
 
       classifiers = ['Development Status :: 2 - Pre-Alpha'
-                     "Intended Audience :: Developers",
-                     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
-                     "Programming Language :: Python",
-                     'Programming Language :: Python :: 2',
-                     'Programming Language :: Python :: 2.7'
+                     'Intended Audience :: Developers',
+                     'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+                     'Programming Language :: Python :: 3.10',
+                     'Programming Language :: Python :: 3.11',
+                     'Programming Language :: Python :: 3.12',
                      "Operating System :: OS Independent",
-                     "Topic :: Software Development :: Libraries :: Python Modules"],
-      keywords="DiskFormatID")
+                     'Topic :: Software Development :: Libraries :: Python Modules'],
+      keywords='DiskFormatID')
 
